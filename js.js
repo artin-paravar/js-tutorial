@@ -1,4 +1,4 @@
-// for variable
+//  variable
 
 // let myName = "Artin-Paravar";
 // myName.slice(0, 2);
