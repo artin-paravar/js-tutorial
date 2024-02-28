@@ -430,7 +430,7 @@
 //   .then((data) => console.log(data))
 //   .catch((error) => console.error(error));
 
-//////// to ways of get object item
+/////// to ways of get object item
 
 // let object2 = [
 //     {
