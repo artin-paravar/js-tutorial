@@ -198,7 +198,7 @@
 
 // for (let i = 0; i < 1; i++) {
 //   const element = Math.floor(Math.random() * object2.length);
-//   document.write(`<h1>${object2[element].name}</h1>`);
+//   document.body.innerHTML = `<h1>${object2[element].name}</h1>`;
 // }
 
 ////////////////
@@ -429,3 +429,29 @@
 // fetchData()
 //   .then((data) => console.log(data))
 //   .catch((error) => console.error(error));
+
+//////// to ways of get object item
+
+// let object2 = [
+//     {
+//       name: "artin",
+//     },
+//     {
+//       name: "artin1",
+//     },
+//     {
+//       name: "artin2",
+//     },
+//     {
+//       name: "artin3",
+//     },
+//   ];
+
+// for (const aha of object2) {
+//   console.log(aha);
+// }
+
+// for (let i = 0; i < object2.length; i++) {
+//   const element = object2[i];
+//   console.log(element);
+// }
