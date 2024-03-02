@@ -204,7 +204,7 @@
 ////////////////
 
 // p.innerHTML;   baray text khode element
-// p.innerText;  baray text dakhel element
+// p;  baray text dakhel element
 
 ////////////////
 
@@ -455,3 +455,16 @@
 //   const element = object2[i];
 //   console.log(element);
 // }
+
+////////////regex
+// let btn = document.querySelector("button");
+// let divha = document.querySelector("div");
+// let input = document.querySelector("input");
+
+// input.addEventListener("keyup", () => {
+//   let data = input.value;
+//   let regex = new RegExp(data, "ig");
+
+//   divha.innerHTML = divha.innerText.replace(regex, `<span>${data}</span>`);
+// });
+////////////regex
