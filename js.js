@@ -307,6 +307,19 @@
 //     document.body.append(h1);
 //   });
 // }
+
+// //////or
+
+// function filter() {
+//   const filter = object2.filter((a) => {
+//     return a.name.length <= 3 || a.id >= 4;
+//   });
+//   filter.map((api) => {
+//     let h1 = document.createElement("h1");
+//     h1.innerText = api.name;
+//     document.body.append(h1);
+//   });
+// }
 // filter();
 
 /// before react
@@ -464,7 +477,6 @@
 // input.addEventListener("keyup", () => {
 //   let data = input.value;
 //   let regex = new RegExp(data, "ig");
-
 //   divha.innerHTML = divha.innerText.replace(regex, `<span>${data}</span>`);
 // });
 ////////////regex
