@@ -37,12 +37,12 @@
 // 1
 
 // const array = [15, 16, 17, 18, 19];
-// array.reduce((accumulator, currentValue, index) => {
-//   const returns = accumulator + currentValue;
+// array.reduce((adad1, adad2, index) => {
+//   const jamea2adad = adad1 + adad2;
 //   console.log(
-//     `accumulator: ${accumulator}, currentValue: ${currentValue}, index: ${index}, returns: ${returns}`
+//     `adad1: ${adad1}, adad2: ${adad2}, index: ${index}, jamea2adad: ${jamea2adad}`
 //   );
-//   return returns;
+//   return jamea2adad;
 // });
 
 //2
